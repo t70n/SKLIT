@@ -1,0 +1,11 @@
+# GitHub Pages (Jekyll) configuration.
+# Publish from Settings > Pages > Deploy from a branch > main, folder / (root).
+title: SKLIT
+description: Machine learning wiki oriented on scikit-learn
+theme: jekyll-theme-primer
+
+# Files that are part of the repository but not of the published site.
+exclude:
+  - Unformalized_Notes.md
+  - tools/
+  - .github/
