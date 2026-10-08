@@ -53,10 +53,6 @@ Recipes are complete, end-to-end workflows that combine the concepts of the othe
 
 Recipes load the course datasets with paths such as `../datasets/adult-census.csv`, relative to the notebook that runs them. The files are available in the [`datasets` folder of the scikit-learn MOOC repository](https://github.com/INRIA/scikit-learn-mooc/tree/main/datasets). Other recipes use datasets bundled with scikit-learn (`load_digits`, `load_breast_cancer`) or downloaded on first use (`fetch_california_housing`, `fetch_openml`).
 
-## Writing a new recipe
-
-Follow the recipe template in [CONTRIBUTING.md](../CONTRIBUTING.md#recipe-template): goal, dataset, numbered steps with code, interpretation, and related pages. Add the recipe to the catalog above and to the mindmap in the [home page](../README.md).
-
 ## Navigation
 
 - Previous section: [Hyperparameter Tuning](../09-Hyperparameter-Tuning/README.md)
