@@ -29,7 +29,7 @@ Every section has an index page (`README.md`). Every page starts with a navigati
 
 ## Mindmap
 
-For interactive mindmap, follow the github page: https://t70n.github.io/sklit/
+For interactive mindmap, follow the github page: https://t70n.github.io/SKLIT/
 
 <div class="markmap" markdown="0">
 
