@@ -55,7 +55,7 @@ Recipes load the course datasets with paths such as `../datasets/adult-census.cs
 
 ## Writing a new recipe
 
-Follow the recipe template in [CONTRIBUTING.md](../CONTRIBUTING.md#recipe-template): goal, dataset, numbered steps with code, interpretation, and related pages. Add the recipe to the catalog above and to the mindmap in the [home page](../README.md).
+Follow this recipe template: goal, dataset, numbered steps with code, interpretation, and related pages. Add the recipe to the catalog above and to the mindmap in the [home page](../README.md).
 
 ## Navigation
 
