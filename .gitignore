@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local course datasets (download them from the scikit-learn MOOC repository)
+datasets/
+
+# Jekyll (local preview of the GitHub Pages site)
+_site/
+.jekyll-cache/
+.sass-cache/
+Gemfile.lock
+
+# Editors and operating systems
+.obsidian/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
