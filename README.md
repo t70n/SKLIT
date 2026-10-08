@@ -29,7 +29,7 @@ Every section has an index page (`README.md`). Every page starts with a navigati
 
 ## Mindmap
 
-The outline below lists every page of the wiki. On the GitHub Pages site, it is rendered as an interactive [markmap](https://markmap.js.org/) mindmap: branches can be folded and unfolded, the view can be zoomed and moved, and every node is a link. On GitHub, it is displayed as a table of contents.
+For interactive mindmap, follow the github page: https://t70n.github.io/sklit/
 
 <div class="markmap" markdown="0">
 
