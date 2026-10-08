@@ -6,6 +6,8 @@
 
 SKLIT is a structured, practical knowledge base on machine learning with scikit-learn. It covers the complete workflow, from loading and exploring tabular data to preprocessing, modeling, evaluation, and hyperparameter tuning, with short theoretical explanations, runnable code, and end-to-end recipes.
 
+Link to the mooc, I heavily recommand: [Inria Scikit-learn MOOC](https://www.fun-mooc.fr/en/courses/machine-learning-python-scikit-learn/)
+
 ## About this wiki
 
 - **Scope**: supervised learning on tabular data with pandas and scikit-learn, from first principles to model selection.
@@ -181,38 +183,6 @@ The sections are numbered in the order of a typical machine learning workflow.
 | 10 | [Recipes](10-Recipes/README.md) | End-to-end workflows on real datasets |
 | 11 | [Glossary](11-Glossary/README.md) | Definitions of the main terms |
 
-## Repository structure
-
-```text
-SKLIT/
-├── README.md                     Home page, mindmap, and learning path
-├── CONTRIBUTING.md               Writing conventions and page templates
-├── LICENSE                       MIT license
-├── 01-ML-Basics/                 Concepts, train/test split, overfitting
-├── 02-Pandas/                    Data manipulation with pandas
-├── 03-EDA/                       Exploratory data analysis and cleaning
-├── 04-Visualization/             Exploratory plots
-├── 05-Preprocessing/             Scaling, encoding, ColumnTransformer, Pipeline
-├── 06-Feature-Engineering/       Feature generation, selection, and reduction
-├── 07-Models/                    Estimators grouped by family
-│   ├── Baselines/
-│   ├── Linear-Models/
-│   ├── Nearest-Neighbors/
-│   ├── Support-Vector-Machines/
-│   ├── Decision-Trees/
-│   └── Ensembles/
-├── 08-Model-Evaluation/          Metrics, cross-validation, diagnostic curves
-├── 09-Hyperparameter-Tuning/     Search methods and nested cross-validation
-├── 10-Recipes/                   End-to-end workflows
-├── 11-Glossary/                  Definitions of the main terms
-├── tools/check_links.py          Internal link checker
-├── _config.yml                   GitHub Pages (Jekyll) configuration
-├── _includes/head-custom.html    Mindmap and formula rendering on GitHub Pages
-└── .github/workflows/            Continuous integration (link check)
-```
-
-Each numbered folder contains a `README.md` index page.
-
 ## Datasets
 
 | Dataset | Used in | Source |
@@ -235,18 +205,6 @@ pip install scikit-learn pandas numpy scipy matplotlib seaborn
 ```
 
 Some pages use optional libraries: `xgboost`, `catboost`, and `plotly`.
-
-## Publishing on GitHub Pages
-
-The repository is ready to be published with GitHub Pages (Settings, Pages, deploy from the `main` branch, root folder). The default Jekyll build converts every page to HTML, and `_includes/head-custom.html` renders the mindmap above with markmap and the LaTeX formulas with MathJax. No build step is required on GitHub itself, where Markdown and formulas are rendered natively.
-
-## Contributing
-
-Writing conventions, page and recipe templates, and the checklist for adding a page are described in [CONTRIBUTING.md](CONTRIBUTING.md). Internal links are checked automatically on every push:
-
-```bash
-python tools/check_links.py
-```
 
 ## License and acknowledgements
 
